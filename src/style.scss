@@ -158,3 +158,6 @@ body {
 .cropieCust{
   scale: .5;
 }
+.croppie-container .cr-boundary {
+  overflow: scroll;
+}

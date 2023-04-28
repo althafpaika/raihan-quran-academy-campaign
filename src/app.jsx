@@ -22,12 +22,12 @@ let bg = new Image();
 let DocW = 3264;
 let DocH = 3264;
 
-let Cropy = 852;
-let Cropx = 366;
+let Cropy = 1085;
+let Cropx = 465;
 
 // cut size
-let CropH = 1257.69;
-let CropW = 1057.41;
+let CropH = 917;
+let CropW = 732;
 
 export function App(props) {
   let file = document.createElement("input");
@@ -121,7 +121,7 @@ export function App(props) {
 
       viewport: {
         height: CropH / 2,
-        width: 500,
+        width: CropW /2,
         type: "rectangle",
       },
     });

@@ -157,7 +157,7 @@ export function App(props) {
         <div className="Actions">
           {GeneratedData ? (
             <div>
-              <a href={GeneratedData} download="eelaf campaign poster">
+              <a href={GeneratedData} download="RAIHAN ONLINE QURAN ACADEMY campaign poster">
                 <button>
                   <AiOutlineDownload size="30" />
                   <span>Download Profile</span>

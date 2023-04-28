@@ -121,7 +121,7 @@ export function App(props) {
 
       viewport: {
         height: CropH / 2,
-        width: CropW / 2,
+        width: 500,
         type: "rectangle",
       },
     });
